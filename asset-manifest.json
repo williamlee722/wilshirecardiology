@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wilshirecardiology/static/css/main.e73967bd.css",
+    "main.css": "/wilshirecardiology/static/css/main.54329354.css",
     "main.js": "/wilshirecardiology/static/js/main.c95317b4.js",
     "static/media/steve1.jpg": "/wilshirecardiology/static/media/steve1.eabd81cedbb63a38a518.jpg",
     "static/media/dohee1.jpg": "/wilshirecardiology/static/media/dohee1.8fea8d7a54cf829365c3.jpg",
@@ -23,11 +23,11 @@
     "static/media/HolterMonitoring.pdf": "/wilshirecardiology/static/media/HolterMonitoring.e811e269b7ad671938e4.pdf",
     "static/media/dohee2.jpg": "/wilshirecardiology/static/media/dohee2.f54cc6893e5cf9ecd842.jpg",
     "index.html": "/wilshirecardiology/index.html",
-    "main.e73967bd.css.map": "/wilshirecardiology/static/css/main.e73967bd.css.map",
+    "main.54329354.css.map": "/wilshirecardiology/static/css/main.54329354.css.map",
     "main.c95317b4.js.map": "/wilshirecardiology/static/js/main.c95317b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e73967bd.css",
+    "static/css/main.54329354.css",
     "static/js/main.c95317b4.js"
   ]
 }
