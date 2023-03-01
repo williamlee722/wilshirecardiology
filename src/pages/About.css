@@ -1,0 +1,54 @@
+.inforow {
+    border: .5px solid white;
+    height: 360px;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.inforow .about1 {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.inforow .about2 {
+    float: right;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.inforow .about3 {
+    float: bottom;
+    width: 100%;
+    min-height: 100%;
+}
+
+.aboutHeader {
+    background-color: rgb(240, 240, 240);
+    color: rgb(238, 63, 51);
+    height: 75px;
+    padding: 0%;
+}
+
+.aboutHeader h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: end;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.aboutP {
+    padding: 25px 50px 25px 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    .aboutHeader {
+        display: none;
+    }
+
+    .aboutimg {
+        display: none;
+    }
+}
+

@@ -1,0 +1,210 @@
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.color-nav{
+    background-color: rgb(19,58,123);
+}
+
+.nav-item{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    border-right: 1px solid white;
+    display: inline-block;
+    height: 17px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.nav-item:last-child{
+    border-right: none;
+}
+
+.nav-item:hover{
+    color: white;
+    font-weight: 800;
+}
+
+.nav-item:focus{
+    color: white !important;
+}
+
+.nav-item:active{
+    color: white !important;
+}
+
+.nav-item:visited{
+    color: white !important;
+}
+
+.dropdown-toggle {
+    color: white;
+    font-weight: 500;
+    height: 17px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.dropdown-toggle:hover {
+    color: white;
+    font-weight: 800;
+}
+
+.dropdown-toggle:focus{
+    color: white !important;
+}
+
+.dropdown-toggle:active{
+    color: white !important;
+}
+
+.dropdown-toggle:visited{
+    color: white !important;
+}
+
+.dropdown-toggle.show.nav-link {
+    color:white !important;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-menu{
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    right: auto;
+    left: auto;
+    border-radius: 0%;
+    transform: translate(-30%, 0);
+}
+
+.physician-toggle > .dropdown-menu{
+    right: auto;
+    left: auto;
+    border-radius: 0%;
+    transform: translate(-27%, 0);
+}
+
+.service-toggle > .dropdown-menu{
+    right: auto;
+    left: auto;
+    border-radius: 0%;
+    transform: translate(-40%, 0);
+}
+
+.dropdown-item {
+    text-align: center;
+    color: rgb(19,58,123);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(203,212,226);
+}
+
+.dropdown-header {
+    color: rgb(19,58,123);
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(137,157,189);
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border: none;
+} 
+
+.dropdown-toggle:hover .dropdown-menu{
+    display: block;
+}
+
+.physician-toggle .service-toggle:hover .dropdown-menu{
+    display: block;
+}
+.service-toggle .physician-toggle:hover .dropdown-menu{
+    display: block;
+}
+
+@media only screen and (max-width: 980px) {
+    #basic-navbar-nav {
+        background-color: rgb(203,212,226);
+        margin: 0px -15px -10px -15px;
+    }
+
+    .dropdown-menu.show {
+        margin: 0px;
+        padding: 0%;
+    }
+    
+    #basic-navbar-nav .dropdown-header {
+        margin: auto;
+        text-align: center;
+    }
+
+    .dropdown-toggle {
+        color: rgb(19,58,123);
+        height: fit-content;
+        margin-bottom: 0%;
+    }
+    
+    #basic-navbar-nav .dropdown-menu{
+        margin-top: 10px;
+        border: none;
+        transform: translate(0, 0);
+    }
+    
+    #basic-navbar-nav .dropdown-item{
+        margin: auto;
+        text-align: center;
+        padding: 8px 0px 8px 0px;
+        color: rgb(19,58,123);
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        background-color: rgb(203,212,226);
+    }
+
+    #basic-navbar-nav .dropdown-item:hover{
+        background-color: rgb(137,157,189);
+        color: white;
+        font-weight: 500;
+    }
+
+    #basic-navbar-nav .dropdown-header{
+        color: rgb(19,58,123);
+        font-weight: 500;
+        background-color: white;
+        height: fit-content;
+    }
+
+    #basic-navbar-nav .nav-item{
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        font-size: 15px;
+        border-right: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgb(19,58,123);
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    #basic-navbar-nav .nav-item:hover{
+        background-color: rgb(137,157,189);
+        color: white;
+        font-weight: 500;
+    }
+  }

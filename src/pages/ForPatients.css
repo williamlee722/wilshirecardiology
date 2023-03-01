@@ -1,0 +1,23 @@
+.forPatients2 {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.forPatientsLink, .forPatientsLink:hover, .forPatientsLink:visited{
+    text-decoration: none;
+    color: red;
+}
+
+.patientlink {
+    text-decoration: none;
+    color: black;
+}
+
+.patientlink:hover{
+    font-weight: 500;
+}
+
+.pdfimg {
+    width: 1em;
+    height: auto;
+}

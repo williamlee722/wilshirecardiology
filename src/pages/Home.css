@@ -1,0 +1,113 @@
+.logo{
+    margin: auto;
+    margin-right: 0;
+    max-width:600px;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro{
+    margin: auto;
+    max-width:600px;
+    margin-left: 0;
+    padding-top: 50px;
+    height: 200px;
+    line-height: 1.2em;
+}
+
+.welcome{
+    text-align: end;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(19,58,123);
+    margin-bottom: -10px;
+}
+
+.group{
+    text-align: end;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(238, 63, 51);
+}
+
+.inforow {
+    border: .5px solid white;
+    height: 450px;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.infotextrow {
+    border: .5px solid white;
+    background-color: rgb(19,58,123);
+    color: white;
+    padding: 0px 25px 0px 25px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    height: 170px;
+}
+
+h4 {
+    color: rgb(238, 63, 51);
+    margin-top: 20px;
+}
+
+.moreLink {
+    color: rgb(238, 63, 51);
+    text-decoration: none;
+}
+
+.bottomrow {
+    margin-bottom: 30px;
+    vertical-align: bottom;
+}
+
+.home img {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.physiciansimg {
+    float: bottom;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo, .intro, .group, .welcome{
+        text-align: center;
+        margin: auto;
+        height: fit-content;
+        padding-bottom: 0px;
+    }
+
+    .intro {
+        padding-bottom: 50px;
+    }
+
+    .infotextrow {
+        height: fit-content;
+        padding: 8px 20px 20px 25px;
+    }
+
+
+    .inforow .aboutWCGimg {
+        overflow: hidden;
+    }
+
+    .inforow {
+        border: .5px solid white;
+        height: 200px;
+        padding: 0%;
+        overflow: hidden;
+    }
+
+    .physiciansimg {
+        margin-top: -43%;
+        scale: 0.45;
+    }
+
+    .veinimg {
+        margin-top: -40%;
+        scale: 0.5;
+    }
+}
