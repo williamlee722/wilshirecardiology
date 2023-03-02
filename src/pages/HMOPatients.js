@@ -22,11 +22,11 @@ export default function HMOPatients() {
             <div className="row">
             <div className="col-3 col-lg-3 aboutHeader physicians-sidebar">
                     <h5>For Patients</h5>
-                    <a href="/wilshirecardiology/#/patients/new"><button className='sidebar-button'>New Patients</button></a>
-                    <a href="/wilshirecardiology/#/patients/hmo"><button className='sidebar-button selected'>HMO Patients</button></a>
-                    <a href="/wilshirecardiology/#/patients/contracted_plans"><button className='sidebar-button'>Contracted Insurance Plans</button></a>
-                    <a href="/wilshirecardiology/#/patients/prescription"><button className='sidebar-button'>Prescription</button></a>
-                    <a href="/wilshirecardiology/#/patients/instructions"><button className='sidebar-button'>Procedure Instructions</button></a>
+                    <a href="/patients/new"><button className='sidebar-button'>New Patients</button></a>
+                    <a href="/patients/hmo"><button className='sidebar-button selected'>HMO Patients</button></a>
+                    <a href="/patients/contracted_plans"><button className='sidebar-button'>Contracted Insurance Plans</button></a>
+                    <a href="/patients/prescription"><button className='sidebar-button'>Prescription</button></a>
+                    <a href="/patients/instructions"><button className='sidebar-button'>Procedure Instructions</button></a>
                 </div>
                 <div className="col-12 col-lg-9 portfolio">
                     <div className="row">
@@ -37,7 +37,7 @@ export default function HMOPatients() {
                             <p className='treatmentRedEmphises'>2. Processing authorization for next visit</p>
                             <p>After your first visit, our office will communicate the appropriate service codes with your primary care physician.</p>
                             <p>Please note that processing an authorization can take several business days, in some cases up to two weeks. </p>
-                            <p className='treatmentRedEmphises'>3. Please refer to the <a className='forPatientsLink' href='/wilshirecardiology/#/patients/contracted_plans'>"Insurance"</a> link for the list of accepted HMOs.  </p>
+                            <p className='treatmentRedEmphises'>3. Please refer to the <a className='forPatientsLink' href='/patients/contracted_plans'>"Insurance"</a> link for the list of accepted HMOs.  </p>
                         </div>
                     </div>
                 </div>

@@ -22,11 +22,11 @@ export default function NewPatients() {
             <div className="row">
             <div className="col-3 col-lg-3 aboutHeader physicians-sidebar">
                     <h5>For Patients</h5>
-                    <a href="/wilshirecardiology/#/patients/new"><button className='sidebar-button selected'>New Patients</button></a>
-                    <a href="/wilshirecardiology/#/patients/hmo"><button className='sidebar-button'>HMO Patients</button></a>
-                    <a href="/wilshirecardiology/#/patients/contracted_plans"><button className='sidebar-button'>Contracted Insurance Plans</button></a>
-                    <a href="/wilshirecardiology/#/patients/prescription"><button className='sidebar-button'>Prescription</button></a>
-                    <a href="/wilshirecardiology/#/patients/instructions"><button className='sidebar-button'>Procedure Instructions</button></a>
+                    <a href="/patients/new"><button className='sidebar-button selected'>New Patients</button></a>
+                    <a href="/patients/hmo"><button className='sidebar-button'>HMO Patients</button></a>
+                    <a href="/patients/contracted_plans"><button className='sidebar-button'>Contracted Insurance Plans</button></a>
+                    <a href="/patients/prescription"><button className='sidebar-button'>Prescription</button></a>
+                    <a href="/patients/instructions"><button className='sidebar-button'>Procedure Instructions</button></a>
                 </div>
                 <div className="col-12 col-lg-9 portfolio">
                     <div className="row">
@@ -40,8 +40,8 @@ export default function NewPatients() {
                                 <li>Driver's License or Photo ID</li>
                                 <li>Current Insurance Card</li>
                                 <li>Current Medication List or All Prescribed Bottles</li>
-                                <li>Recent Lab Work/Diagnostic Procedures (if appropriate)</li>
-                                <li>Recent Hospitalization Records (if appropriate)</li>
+                                <li>Recent Lab Work/Diagnostic Procedures &#40;if appropriate&#41;</li>
+                                <li>Recent Hospitalization Records &#40;if appropriate&#41;</li>
                                 <li>FOR HMO PATIENTS: PLEASE BRING YOUR AUTHORIZATION GIVEN BY PRIMARY CARE PROVIDER</li>
                             </ul>
                         </div>

@@ -22,18 +22,18 @@ export default function Prescription() {
             <div className="row">
             <div className="col-3 col-lg-3 aboutHeader physicians-sidebar">
                     <h5>For Patients</h5>
-                    <a href="/wilshirecardiology/#/patients/new"><button className='sidebar-button'>New Patients</button></a>
-                    <a href="/wilshirecardiology/#/patients/hmo"><button className='sidebar-button'>HMO Patients</button></a>
-                    <a href="/wilshirecardiology/#/patients/contracted_plans"><button className='sidebar-button'>Contracted Insurance Plans</button></a>
-                    <a href="/wilshirecardiology/#/patients/prescription"><button className='sidebar-button selected'>Prescription</button></a>
-                    <a href="/wilshirecardiology/#/patients/instructions"><button className='sidebar-button'>Procedure Instructions</button></a>
+                    <a href="/patients/new"><button className='sidebar-button'>New Patients</button></a>
+                    <a href="/patients/hmo"><button className='sidebar-button'>HMO Patients</button></a>
+                    <a href="/patients/contracted_plans"><button className='sidebar-button'>Contracted Insurance Plans</button></a>
+                    <a href="/patients/prescription"><button className='sidebar-button selected'>Prescription</button></a>
+                    <a href="/patients/instructions"><button className='sidebar-button'>Procedure Instructions</button></a>
                 </div>
                 <div className="col-12 col-lg-9 portfolio">
                     <div className="row">
                         <div className="col-12 col-lg-12">
                             <p className="physicianTitle">How to Get a Prescription</p>
                             <p>Before picking up your prescription, please call the pharmacy to make sure it is ready.</p>
-                            <p>If the pharmacy has not received the new prescription or refill request, please ask the PHARMACY  to CALL (not fax) the Wilshire Cardiology Group office for the prescription.</p>
+                            <p>If the pharmacy has not received the new prescription or refill request, please ask the PHARMACY  to CALL &#40;not fax&#41; the Wilshire Cardiology Group office for the prescription.</p>
                         </div>
                     </div>
                 </div>

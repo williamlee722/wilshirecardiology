@@ -26,7 +26,7 @@ export default function Home() {
                     </div>
                     <div className='col-12 infotextrow'>
                         <h4>About WCG</h4>
-                        <p>Wilshire Cardiology Group - Our clinic offers a comprehensive cardiology program including treatment of a full range of cardiovascular disorders and diseases such as angina, antiplatelet therapy, arrhythmia, congestive heart failure, lipid disorders, coronary artery disease... <a className='moreLink' href='/wilshirecardiology/#/about'>More</a></p> 
+                        <p>Wilshire Cardiology Group - Our clinic offers a comprehensive cardiology program including treatment of a full range of cardiovascular disorders and diseases such as angina, antiplatelet therapy, arrhythmia, congestive heart failure, lipid disorders, coronary artery disease... <a className='moreLink' href='/about'>More</a></p> 
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                     <div className='col-12 infotextrow'>
                         <h4>Physicians</h4>
-                        <p>Dr. Steve Park, M.D completed his medical education at the University of Minnesota, internship and residency at Northwestern University.... <a className='moreLink' href='/wilshirecardiology/#/physicians/stevep'>More</a></p> 
+                        <p>Dr. Steve Park, M.D completed his medical education at the University of Minnesota, internship and residency at Northwestern University.... <a className='moreLink' href='/physicians/stevep'>More</a></p> 
                     </div>
                 </div>
             </div>            
@@ -48,7 +48,7 @@ export default function Home() {
                     </div>
                     <div className='col-12 infotextrow'>
                         <h4>Varicose Veins</h4>
-                        <p>Varicose veins are often the cause for patient's symptoms such as heaviness, fatigue or lower body aches and after standing or sitting for long... <a className='moreLink' href='/wilshirecardiology/#/services/treatments/varicose_vein'>More</a></p>
+                        <p>Varicose veins are often the cause for patient's symptoms such as heaviness, fatigue or lower body aches and after standing or sitting for long... <a className='moreLink' href='/services/treatments/varicose_vein'>More</a></p>
                     </div>
                 </div>
             </div>

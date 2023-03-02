@@ -94,20 +94,18 @@ h4 {
         overflow: hidden;
     }
 
-    .inforow {
-        border: .5px solid white;
-        height: 200px;
-        padding: 0%;
-        overflow: hidden;
-    }
-
-    .physiciansimg {
-        margin-top: -43%;
-        scale: 0.45;
+    .physiciansimg{
+        margin-top: -40%;
     }
 
     .veinimg {
-        margin-top: -40%;
-        scale: 0.5;
+        margin-top: -20%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .physiciansimg{
+        margin-top: 0%;
     }
 }

@@ -5,7 +5,7 @@ import about2 from '../images/about2.png';
 import steve3 from '../images/steve2.jpg';
 import Steve_park from '../images/Steve_Park.jpg';
 
-export default function Steve_Park() {
+export default function StevePark() {
   return (
     <div className="container">
         <div className='physicians'>
@@ -23,14 +23,14 @@ export default function Steve_Park() {
             <div className="row">
                 <div className="col-3 col-lg-3 aboutHeader physicians-sidebar">
                     <h5>Doctors/Physicians</h5>
-                    <a href='/wilshirecardiology/#/physicians/stevep'><button className='sidebar-button selected'>Cardiologist</button></a>
-                    <a href='/wilshirecardiology/#/physicians/doheek'><button className='sidebar-button'>Nuclear Physician</button></a>
+                    <a href='/physicians/stevep'><button className='sidebar-button selected'>Cardiologist</button></a>
+                    <a href='/physicians/doheek'><button className='sidebar-button'>Nuclear Physician</button></a>
                 </div>
                 <div className="col-12 col-lg-9 portfolio">
                     <div className="row">
                         <div className="col-12 col-lg-12 physicianTitle">Steve S. Park, M.D. ,Interventional Cardiologist</div>
                         <div className="col-12 col-lg-4 photorow">
-                            <img src={Steve_park} width={300}></img>
+                            <img src={Steve_park} alt="Dr. Steve Park Profile" width={300}></img>
                         </div>
                         <div className="col-12 col-lg-8 aboutP">
                             <p>Dr. Steve Park, M.D completed his medical education at the University of Minnesota, internship and residency at Northwestern University, fellowship at St. Vincent's Medical Center and Loma Linda University Medical Center. He started as a member of the teaching staff at White Memorial Heart Institute. After winning a teaching award, in 1995 he began practicing interventional cardiology in Koreantown.</p>

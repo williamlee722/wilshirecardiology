@@ -3,9 +3,9 @@ import './Physicians.css';
 import dohee1 from '../images/dohee1.jpg';
 import about2 from '../images/about2.png';
 import dohee3 from '../images/dohee2.jpg';
-import DoheeKim from '../images/Dohee_kim.jpg';
+import DoheeKimProfile from '../images/Dohee_kim.jpg';
 
-export default function Dohee_Kim() {
+export default function DoheeKim() {
   return (
     <div className="container">
         <div className='physicians'>
@@ -23,14 +23,14 @@ export default function Dohee_Kim() {
             <div className="row">
                 <div className="col-3 col-lg-3 aboutHeader physicians-sidebar">
                     <h5>Doctors/Physicians</h5>
-                    <a href='/wilshirecardiology/#/physicians/stevep'><button className='sidebar-button'>Cardiologist</button></a>
-                    <a href='/wilshirecardiology/#/physicians/doheek'><button className='sidebar-button selected'>Nuclear Physician</button></a>
+                    <a href='/physicians/stevep'><button className='sidebar-button'>Cardiologist</button></a>
+                    <a href='/physicians/doheek'><button className='sidebar-button selected'>Nuclear Physician</button></a>
                 </div>
                 <div className="col-12 col-lg-9 portfolio">
                     <div className="row">
                         <div className="col-12 col-lg-12 physicianTitle">Do Hee Kim, M.D. ,Specialist in Clinical and Laboratory Nuclear Medicine</div>
                         <div className="col-12 col-lg-4 photorow">
-                            <img src={DoheeKim} width={300}></img>
+                            <img src={DoheeKimProfile} alt="DoheeKimProfilePic" width={300}></img>
                         </div>
                         <div className="col-12 col-lg-8 aboutP">
                             <p>Dr. Kim is certified by the American Board of Nuclear Medicine &#40;ABNM&#41; to practice as a specialist in all aspects of clinical and laboratory nuclear medicine. Having completed her medical school education at Universidad de Buenos Aires in Argentina, Dr. Kim went on to complete residency in preliminary internal medicine at University of Southern California, Los Angeles County Hospital. After her residency at USC, she received clinical training in Nuclear Medicine at UCLA Ronald Reagan Medical Center.</p>

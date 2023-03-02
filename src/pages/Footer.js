@@ -11,14 +11,14 @@ export default function Footer() {
           <div className='infolgn'>
             <li>|</li>
           </div>
-          <li><a className='info' href='tel:+12133878000'>(213) 387-8000</a></li>
+          <li><a className='info' href='tel:+12133878000'>&#40;213&#41; 387-8000</a></li>
           <div className='infomdn'>
             <li>|</li>
           </div>
           <div className='infomd'>
             <li><a className='info' href='mailto:info@wilshirecardiology.com'>info@wilshirecardiology.com</a></li>
             <li>|</li>
-            <li><a className='info' href='https://goo.gl/maps/TBGL2epcSmHcntdLA' target="_blank">500 S. Virgil Ave. Suite 200, Los Angeles, CA 90020</a></li>
+            <li><a className='info' href='https://goo.gl/maps/TBGL2epcSmHcntdLA' target="_blank" rel="noreferrer">500 S. Virgil Ave. Suite 200, Los Angeles, CA 90020</a></li>
           </div>
         </ul>
     <p className='copyright'>&copy; Copyright 2023 Wilshire Cardiology Group</p>
