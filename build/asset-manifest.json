@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b22d74d.css",
+    "main.css": "/static/css/main.a58a17f8.css",
     "main.js": "/static/js/main.6d99090a.js",
     "static/media/steve1.jpg": "/static/media/steve1.eabd81cedbb63a38a518.jpg",
     "static/media/dohee1.jpg": "/static/media/dohee1.8fea8d7a54cf829365c3.jpg",
@@ -23,11 +23,11 @@
     "static/media/HolterMonitoring.pdf": "/static/media/HolterMonitoring.e811e269b7ad671938e4.pdf",
     "static/media/dohee2.jpg": "/static/media/dohee2.f54cc6893e5cf9ecd842.jpg",
     "index.html": "/index.html",
-    "main.2b22d74d.css.map": "/static/css/main.2b22d74d.css.map",
+    "main.a58a17f8.css.map": "/static/css/main.a58a17f8.css.map",
     "main.6d99090a.js.map": "/static/js/main.6d99090a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b22d74d.css",
+    "static/css/main.a58a17f8.css",
     "static/js/main.6d99090a.js"
   ]
 }
